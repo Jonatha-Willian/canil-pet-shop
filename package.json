@@ -1,0 +1,31 @@
+{
+  "name": "canil-pet-shop",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Jonatha-Willian/canil-pet-shop#readme",
+  "bugs": {
+    "url": "https://github.com/Jonatha-Willian/canil-pet-shop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonatha-Willian/canil-pet-shop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mustache-express": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/mustache-express": "^1.2.5",
+    "@types/node": "^24.5.2"
+  }
+}
